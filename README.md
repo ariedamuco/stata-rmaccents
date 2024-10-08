@@ -27,12 +27,48 @@ newvar(name): Creates a new variable with unaccented text. You can specify a new
 replace: Replaces the original variable with the unaccented version.
 
 ## Examples
-Example 1: Replace Accents in the Original Variable
+- Example 1: Replace Accents in the original variable.
 You can replace accented characters directly in the original variable using the  `replace` option:
 
 ``` stata
 rmaccents name, replace
 ```
 
-Example 2: Create a New Variable Without Accents
+- Example 2: Create a New Variable Without Accents.
 To create a new variable (while keeping the original variable intact), use the  `newvar` option:
+
+``` stata
+rmaccents name, newvar(name_noaccent)
+```
+
+- Example 3: Replace Accents in Multiple Variables
+You can handle multiple variables at once by specifying them in the  `varlist`:
+
+``` stata
+rmaccents name city country, replace
+```
+
+- Example 4: Create New Variables for Multiple Variables
+To create new variables without accents for `name` `city` `country` , use:
+
+``` stata
+rmaccents name city country, newvar(name_noaccent city_noaccent country_noaccent)
+```
+
+## List of Supported Characters
+The rmaccents package supports the following accented characters:
+
+Accents Supported: á, é, í, ó, ú, Á, É, Í, Ó, Ú, ñ, Ñ, ä, ö, ü, Ä, Ö, Ü, ß, ő, ű, Ő, Ű
+These characters will be replaced with their unaccented equivalents (e.g., á → a, ß → ss).
+
+## Author
+Arieda Muço
+Email: arieda.muco@gmail.com
+
+## Acknowledgments
+This package was developed with feedback from ChatGPT and was inspired by my Stata users-only colleagues and coauthors.
+
+## License
+This package is licensed under the MIT License. See the `LICENSE` file for more details.
+
+
