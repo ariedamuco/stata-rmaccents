@@ -7,8 +7,8 @@ program define rmaccents
     syntax varlist(string) [, NEWvar(name) REPLACE]
 
     // Define local macros for accented characters and their corresponding replacements
-	local accents "á é í ó ú Á É Í Ó Ú ñ Ñ ä ö ü Ä Ö Ü ß ő ű Ő Ű ø Ø æ Æ å Å å Å ä Ä ö Ö ë Ë"
-    local replacements "a e i o u A E I O U n N a o u A O U ss o u O U o O ae AE a A a A a A o O e E"
+	local accents "á é í ó ú Á É Í Ó Ú ñ Ñ ä ö ü Ä Ö Ü ß ő ű Ő Ű ø Ø ç Ç é è ë Ë å Å"
+	local replacements "a e i o u A E I O U n N a o u A O U ss o u O U o O ae AE a A a A a A o O e E"
 
     // Loop through each variable in the provided varlist
     foreach var in `varlist' {
