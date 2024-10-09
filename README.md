@@ -86,7 +86,7 @@ Arieda Muço
 Email: arieda.muco@gmail.com
 
 ## Acknowledgments
-This package was developed with feedback from ChatGPT and was inspired by my Stata users-only colleagues and coauthors.
+This package was developed with feedback from ChatGPT and was inspired by my Stata users-only colleagues and co-authors.
 
 ## License
 This package is licensed under the MIT License. See the `LICENSE` file for more details.
