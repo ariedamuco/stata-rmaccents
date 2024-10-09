@@ -18,6 +18,25 @@ net install rmaccents, from("https://raw.githubusercontent.com/ariedamuco/stata-
 
 This command will install the package and make it available for use in your Stata session.
 
+Alternatively: 
+
+If you prefer, you can use Stata's copy command to download the files directly:
+
+1) Download the `.ado` File:
+```
+copy "https://raw.githubusercontent.com/ariedamuco/stata-rmaccents/main/rmaccents.ado" ///
+"`c(sysdir_personal)'/rmaccents.ado", replace
+```
+
+2) Download the Help File:
+```
+copy "https://raw.githubusercontent.com/ariedamuco/stata-rmaccents/main/rmaccents.sthlp" ///
+"`c(sysdir_personal)'/rmaccents.sthlp", replace
+```
+Verify Installation:
+
+Use `which rmaccents` and `help rmaccents`  to confirm.
+
 ## Syntax
 
 rmaccents varlist [, newvar(name) replace]
