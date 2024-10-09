@@ -10,7 +10,7 @@
 
 ## Installation
 
-You can install the `rmaccents` package directly from this GitHub repository using the following Stata command:
+You can install the `rmaccents` package directly from this GitHub repository using the following Stata command: 
 
 ``` stata
 net install rmaccents, from("https://raw.githubusercontent.com/ariedamuco/stata-rmaccents/main/")
