@@ -1,0 +1,9 @@
+*! rmaccents package
+*! version 1.0.0
+*! Date: October 9, 2024
+*! Author: Arieda Muço
+*! Title: Remove accents from strings in Stata
+
+rmaccents.ado
+rmaccents.sthlp
+
