@@ -81,7 +81,8 @@ Example of accents Supported: á, é, í, ó, ú, Á, É, Í, Ó, Ú, ñ, Ñ, ä
 These characters will be replaced with their unaccented equivalents (e.g., á → a, ß → ss).
 
 ## Author
-Arieda Muço
+Arieda Muço 
+
 Email: arieda.muco@gmail.com
 
 ## Acknowledgments
