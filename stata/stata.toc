@@ -1,3 +1,4 @@
 *! rmaccents 1.0.0
 rmaccents.ado
 rmaccents.sthlp
+rmaccents.pkg
