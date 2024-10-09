@@ -77,7 +77,7 @@ rmaccents name city country, newvar(name_noaccent city_noaccent country_noaccent
 ## List of Supported Characters
 The rmaccents package supports the following accented characters:
 
-Accents Supported: á, é, í, ó, ú, Á, É, Í, Ó, Ú, ñ, Ñ, ä, ö, ü, Ä, Ö, Ü, ß, ő, ű, Ő, Ű
+Example of accents Supported: á, é, í, ó, ú, Á, É, Í, Ó, Ú, ñ, Ñ, ä, ö, ü, Ä, Ö, Ü, ß, ő, ű, Ő, Ű
 These characters will be replaced with their unaccented equivalents (e.g., á → a, ß → ss).
 
 ## Author
