@@ -1,4 +1,4 @@
-# rmaccents - Stata Package for Removing Accents
+# rmaccents - Stata Package for Removing Accents from Strings
 
 `rmaccents` is a Stata package designed to remove accented characters from text variables by replacing them with their unaccented equivalents. It is particularly useful for cleaning datasets with accented names, city names, or country names, especially for users working with international data where accents need to be standardized or removed.
 
