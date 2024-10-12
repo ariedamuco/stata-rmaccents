@@ -1,5 +1,5 @@
 {smcl}
-*! version 1.0.0
+*! version 1.0.0 08 October 2024
 {title:Title}
 {phang}
 {cmd:rmaccents} {hline 2} Remove accents from text variables.
@@ -26,34 +26,24 @@ This package is particularly useful when dealing with datasets that contain acce
 {title:Examples}
 {pstd}
 {phang}
-1. Replace accented characters in the original variable:
+Replace accented characters in the original variable:
 {pstd}
 {cmd:. rmaccents name, replace}
-This command will modify the `name` variable in place by replacing accented characters.
 
 {phang}
-2. Create a new variable without accents:
+Create a new variable without accents:
 {pstd}
 {cmd:. rmaccents name, newvar(name_noaccent)}
-This will leave the original `name` variable intact and create a new variable called `name_noaccent` with the unaccented version.
 
 {phang}
-3. Handle multiple variables (e.g., names of cities and countries):
+Handle multiple variables (e.g., names of cities and countries):
 {pstd}
 {cmd:. rmaccents name city country, replace}
-This command will replace accented characters in all specified variables.
 
 {phang}
-4. Create new variables for multiple variables:
+Create new variables for multiple variables:
 {pstd}
 {cmd:. rmaccents name city country, newvar(name_noaccent city_noaccent country_noaccent)}
-This will create new variables for all specified variables, leaving the original ones unchanged.
-
-{phang}
-5. Using the `REPLACE` option with multiple variables:
-{pstd}
-{cmd:. rmaccents name city country, replace}
-This will replace the accented characters in all specified variables directly.
 
 {title:Author}
 {phang}

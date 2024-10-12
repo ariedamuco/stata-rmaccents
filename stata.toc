@@ -1,9 +1,0 @@
-v 1.0.0
-d 'RMACCENTS': A package for removing accents from text variables in Stata
-d
-d Arieda Muço, 
-d arieda.muco@gmail.com
-d
-d Distribution-Date: 20241009
-d
-d https://github.com/ariedamuco/stata-rmaccents
