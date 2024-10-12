@@ -13,7 +13,7 @@
 You can install the `rmaccents` package directly from this GitHub repository using the following Stata command: 
 
 ``` stata
-net install rmaccents, from("net install rmaccents, from("https://raw.githubusercontent.com/ariedamuco/stata-rmaccents/main/installation")
+net install rmaccents, from("https://raw.githubusercontent.com/ariedamuco/stata-rmaccents/main/installation")
 ```
 
 This command will install the package and make it available for use in your Stata session.
