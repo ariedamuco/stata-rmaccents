@@ -13,7 +13,7 @@
 You can install the `rmaccents` package directly from this GitHub repository using the following Stata command: 
 
 ``` stata
-net install rmaccents, from("https://raw.githubusercontent.com/ariedamuco/stata-rmaccents/main/")
+net install rmaccents, from("net install rmaccents, from("https://raw.githubusercontent.com/ariedamuco/stata-rmaccents/main/installation")
 ```
 
 This command will install the package and make it available for use in your Stata session.
@@ -24,13 +24,13 @@ If you prefer, you can use Stata's copy command to download the files directly:
 
 1) Download the `.ado` File:
 ```
-copy "https://raw.githubusercontent.com/ariedamuco/stata-rmaccents/main/rmaccents.ado" ///
+copy "https://raw.githubusercontent.com/ariedamuco/stata-rmaccents/main/installation/rmaccents.ado" ///
 "`c(sysdir_personal)'/rmaccents.ado", replace
 ```
 
 2) Download the Help File:
 ```
-copy "https://raw.githubusercontent.com/ariedamuco/stata-rmaccents/main/rmaccents.sthlp" ///
+copy "https://raw.githubusercontent.com/ariedamuco/stata-rmaccents/main/installation/rmaccents.sthlp" ///
 "`c(sysdir_personal)'/rmaccents.sthlp", replace
 ```
 Verify Installation:
